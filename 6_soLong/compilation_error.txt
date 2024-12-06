@@ -1,0 +1,29 @@
+src/checking/check_map.c:273:25: error: too few arguments to function call, expected 2, have 1
+  273 |         free_array(array);
+      |         ~~~~~~~~~~      ^
+src/checking/check_map.c:143:7: note: 'free_array' declared here
+  143 | char    *free_array(char **array, int i)
+      |          ^          ~~~~~~~~~~~~~~~~~~~
+src/checking/check_map.c:274:15: error: use of undeclared identifier 'fd'
+  274 |         close(fd);
+      |               ^
+src/checking/check_map.c:280:25: error: too few arguments to function call, expected 2, have 1
+  280 |         free_array(array);
+      |         ~~~~~~~~~~      ^
+src/checking/check_map.c:143:7: note: 'free_array' declared here
+  143 | char    *free_array(char **array, int i)
+      |          ^          ~~~~~~~~~~~~~~~~~~~
+src/checking/check_map.c:281:15: error: use of undeclared identifier 'fd'
+  281 |         close(fd);
+      |               ^
+src/checking/check_map.c:287:25: error: too few arguments to function call, expected 2, have 1
+  287 |         free_array(array);
+      |         ~~~~~~~~~~      ^
+src/checking/check_map.c:143:7: note: 'free_array' declared here
+  143 | char    *free_array(char **array, int i)
+      |          ^          ~~~~~~~~~~~~~~~~~~~
+src/checking/check_map.c:288:15: error: use of undeclared identifier 'fd'
+  288 |         close(fd);
+      |               ^
+6 errors generated.
+make: *** [obj/checking/check_map.o] Error 1
